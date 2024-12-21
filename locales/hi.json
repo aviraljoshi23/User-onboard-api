@@ -1,0 +1,22 @@
+{
+	"validation": {
+		"base": {
+			"password": "validation.base.password"
+		},
+		"required": {
+			"email": "ईमेल की आवास्यकता है",
+			"password": "validation.required.password"
+		},
+		"email": {
+			"email": "validation.email.email"
+		}
+	},
+	"success": "success",
+	"user_email_and_phone_exists": "user_email_and_phone_exists",
+	"auth": {
+		"otp_send": "auth.otp_send"
+	},
+	"messages": {
+		"user_not_verified": "messages.user_not_verified"
+	}
+}

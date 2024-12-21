@@ -1,0 +1,92 @@
+{
+	"validation": {
+		"base": {
+			"password": "validation.base.password",
+			"email": "validation.base.email",
+			"date_of_birth": "validation.base.date_of_birth"
+		},
+		"required": {
+			"email": "Email is required",
+			"password": "validation.required.password",
+			"token": "validation.required.token",
+			"otp": "validation.required.otp"
+		},
+		"email": {
+			"email": "validation.email.email"
+		},
+		"unknown": {
+			"password": "validation.unknown.password"
+		},
+		"empty": {
+			"otp": "validation.empty.otp",
+			"email": "validation.empty.email"
+		},
+		"pattern": {
+			"phone_no": "validation.pattern.phone_no"
+		},
+		"length": {
+			"otp": "validation.length.otp"
+		}
+	},
+	"success": "success",
+	"messages": {
+		"login_success": "messages.login_success",
+		"invlid_email_password": "messages.invlid_email_password",
+		"password_reset_link_send": "Email has been sent to registered email id.",
+		"went_wrong": "messages.went_wrong",
+		"invalid_jwt_token": "messages.invalid_jwt_token",
+		"otp": {
+			"sent": {
+				"successully": "messages.otp.sent.successully"
+			}
+		},
+		"otp_send_success": "messages.otp_send_success",
+		"invlid_otp": "messages.invlid_otp",
+		"verified": "messages.verified",
+		"unauthorized user": "messages.unauthorized user",
+		"user_not_verified": "messages.user_not_verified",
+		"otp_verified_successfully": "messages.otp_verified_successfully",
+		"user_already_verified": "messages.user_already_verified"
+	},
+	"message": {
+		"forget_password_subject": "message.forget_password_subject",
+		"email": {
+			"verification": "message.email.verification"
+		},
+		"auth": {
+			"user_email_exists": "message.auth.user_email_exists",
+			"auth": {
+				"otp_send": "message.auth.auth.otp_send"
+			},
+			"__ is not defined": "message.auth.__ is not defined",
+			"messages": {
+				"user_not_verified": "message.auth.messages.user_not_verified"
+			},
+			"user_not_verified": "message.auth.user_not_verified",
+			"Failed to send OTP": "message.auth.Failed to send OTP",
+			"invalid_otp": "message.auth.invalid_otp",
+			"User validation failed": " password: Path `password` is required.",
+			"otp_expired": "message.auth.otp_expired",
+			"user_not_found": "message.auth.user_not_found"
+		}
+	},
+	"your_link_is": "Your link is",
+	"hi": "Hi",
+	"invlid_jwt_token": "invlid_jwt_token",
+	"Hi, your OTP is ": "Hi, your OTP is ",
+	"user_onboard_failed": "user_onboard_failed",
+	"user_onboard_success": "user_onboard_success",
+	"user_email_exists": "user_email_exists",
+	"auth": {
+		"user_email_exists": "auth.user_email_exists",
+		"otp_send": "auth.otp_send"
+	},
+	"user_not_verified": "user_not_verified",
+	"invalid_otp": "invalid_otp",
+	"otp_expired": "otp_expired",
+	"otp_verification_success": "otp_verification_success",
+	"bcrypt is not defined": "bcrypt is not defined",
+	"user_email_and_phone_exists": "user_email_and_phone_exists",
+	"Error": " messages.user_already_verified",
+	"existingUser is not defined": "existingUser is not defined"
+}

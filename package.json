@@ -1,0 +1,28 @@
+{
+  "name": "test_lab_management",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "basic-auth": "^2.0.1",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.18.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "i18n": "^0.15.1",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.2",
+    "twilio": "^5.4.0"
+  }
+}
